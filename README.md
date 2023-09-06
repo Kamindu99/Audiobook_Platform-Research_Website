@@ -1,6 +1,6 @@
 # Audio Book System for Visually Impaired University Students
 
-### [Live Site](/)
+### [Live Site](https://listened.netlify.app/)
 
 ![Audio Book System](https://res.cloudinary.com/dmfljlyu1/image/upload/v1694033302/listened_logo_uhmrcj.png)
 
