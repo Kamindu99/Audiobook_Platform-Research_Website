@@ -11,8 +11,9 @@ const Footer = () => {
                         <div className="col-md-4 col-sm-4 col-xs-4">
                             <div className="footer-text pull-left">
                                 <div className="d-flex">
-                                    <h1 className="font-weight-bold me-2 px-3" style={{ color: "white", backgroundColor: "#8ca3ba" }}> L </h1>
-                                    <h2 style={{ color: "#8ca3ba" }}>ListenEd</h2>
+                                    <h2 style={{ color: "#8ca3ba" }}> <img style={{ width: "40px", height: "40px", marginRight: "10px" }}
+                                        src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1694033302/listened_logo_uhmrcj.png" />
+                                        ListenEd</h2>
                                 </div>
                                 <p className="card-text">
                                     The main objective of the proposed voice-controlled audio

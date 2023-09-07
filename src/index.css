@@ -130,9 +130,7 @@
 .achievements .work i {
   width: fit-content;
   font-size: 50px;
-  color: #333333;
-  border-radius: 50%;
-  border: 2px solid #333333;
+  color: #d16929;
   padding: 12px;
 }
 
@@ -147,6 +145,7 @@
   font-size: 15px;
   color: #585858;
   margin: 10px 0;
+  text-align: justify;
 }
 
 /* CSS for main section end*/

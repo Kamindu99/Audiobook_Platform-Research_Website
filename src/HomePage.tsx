@@ -54,25 +54,29 @@ const HomePage = (props: Props) => {
         <p>Learn More</p>
         {/* <button>Learn More</button> */}
       </div>
-      {/* <div className="achievements">
-        <div className="work">
-          <i className="fas fa-atom"></i>
-          <p className="work-heading">Projects</p>
-          <p className="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+      <section className='mt-5'>
+        <h1 style={{ marginLeft: '8%' }}>Research Gap</h1>
+        <p style={{ marginLeft: '8%' }}>Following areas are the research gaps found in most of the recent researches.</p>
+        <div className="achievements">
+          <div className="work">
+            <i className="fas fa-search"></i>
+            <p className="work-heading">Identification & Classification</p>
+            <p className="work-text">There are no records of a smart solution for coconut pest and disease identification and classification in Sri Lanka. Symptoms of coconut disorders show similar characteristic appearance and therefore it is a challenge to provide a solution.</p>
+          </div>
+          <div className="work">
+            <i className="fas fa-chart-line"></i>
+            <p className="work-heading">Severity Assessment</p>
+            <p className="work-text">Smart solution for identification of some coconut pest and diseases is reported in India but assessment on severity of disease conditon and progression level of pest damage is not attempted.</p>
+          </div>
+          <div className="work">
+            <i className="fas fa-comments"></i>
+            <p className="work-heading">Information Sharing</p>
+            <p className="work-text">Real time communication system to speed up information sharing between coconut growers, extension personals and researchers has been identified as priority need for effective pest and disease control.</p>
+          </div>
         </div>
-        <div className="work">
-          <i className="fas fa-skiing"></i>
-          <p className="work-heading">Skills</p>
-          <p className="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
-        </div>
-        <div className="work">
-          <i className="fas fa-ethernet"></i>
-          <p className="work-heading">Network</p>
-          <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
-        </div>
-      </div>
+      </section>
 
-      <div className="container-fluid py-5" id="about">
+      {/* <div className="container-fluid py-5" id="about">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>About</h1>
@@ -108,9 +112,9 @@ const HomePage = (props: Props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container-fluid py-5" id="skill">
+      {/* <div className="container-fluid py-5" id="skill">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>Skills</h1>
@@ -195,9 +199,9 @@ const HomePage = (props: Props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container-fluid py-5" id="qualification">
+      {/* <div className="container-fluid py-5" id="qualification">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center mb-5">
             <h1 className="position-absolute text-uppercase text-primary">Literature Survey</h1>
@@ -288,9 +292,8 @@ const HomePage = (props: Props) => {
       </div> */}
 
       <section id="contact">
+        <h1 style={{ marginLeft: '8%' }}>Contact Us</h1>
         <div className="container mt-3 contactContent">
-          <h1 className="text-center">Contact Us</h1>
-
           <div className="row mt-4">
             <div className="col-lg-6">
               <div style={{ overflow: 'hidden', resize: 'none', maxWidth: '100%', width: '500px', height: '500px' }}>
