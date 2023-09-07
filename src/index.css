@@ -453,6 +453,7 @@ button.btn.btn-link i {
 
 .meetteam .card-read-more {
   border-top: 1px solid #D4D4D4;
+  height: 25px;
 }
 
 .meetteam .card-read-more a {

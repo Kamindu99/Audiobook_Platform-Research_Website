@@ -39,7 +39,7 @@ function ContactUs() {
     return (
         <section id="contact" className='mt-5'>
             <h1 style={{ marginLeft: '8%' }}>Contact Us</h1>
-            <div className="container mt-3 contactContent">
+            <div className="container mt-5 contactContent">
                 <div className="row mt-4">
                     <div className="col-lg-6">
                         <div style={{ overflow: 'hidden', resize: 'none', maxWidth: '100%', width: '500px', height: '500px' }}>
