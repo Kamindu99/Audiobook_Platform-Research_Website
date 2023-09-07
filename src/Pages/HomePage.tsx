@@ -3,6 +3,7 @@ import LiteratureSurvey from './LiteratureSurvey';
 import MeetOurTeam from './MeetOurTeam';
 import ResearchGap from './ResearchGap';
 import ResearchProblem from './ResearchProblem';
+import TechnologyUsed from './TechnologyUsed';
 
 type Props = {}
 
@@ -19,6 +20,7 @@ const HomePage = (props: Props) => {
       <ResearchGap />
       <ResearchProblem />
       {/* <ResearchObjectives /> */}
+      <TechnologyUsed />
       <MeetOurTeam />
       <ContactUs />
 
