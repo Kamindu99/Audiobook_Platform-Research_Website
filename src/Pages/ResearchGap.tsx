@@ -2,7 +2,7 @@ import React from 'react'
 
 function ResearchGap() {
     return (
-        <section className='mt-5'>
+        <section className='mt-2'>
             <h1 style={{ marginLeft: '8%' }}>Research Gap</h1>
             <p style={{ marginLeft: '8%' }}>Following areas are the research gaps found in most of the recent researches.</p>
             <div className="achievements">

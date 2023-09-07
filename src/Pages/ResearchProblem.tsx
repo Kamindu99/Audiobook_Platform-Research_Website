@@ -2,9 +2,10 @@ import React from 'react'
 
 function ResearchProblem() {
     return (
-        <section className='mt-5'>
+        <section className='mt-1'>
             <h1 style={{ marginLeft: '8%' }}>Research Problem & Solution</h1>
-            <div className="container-fluid py-5" id="about">
+            <br /><br />
+            <div className="container-fluid " id="about">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
