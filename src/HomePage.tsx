@@ -137,6 +137,24 @@ const HomePage = (props: Props) => {
                 <iframe style={{ marginLeft: '5%' }} width="560" height="315" src="https://www.youtube.com/embed/sW8ikZebCTc?si=lJu26JXwc25FXIci" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
               </div>
             </div>
+            <h5 style={{ fontWeight: '700' }} className='ms-3 mt-3'>Proposed Solution</h5>
+            <p style={{ textAlign: 'justify' }} className='ms-3 mt-4'>
+              Voice recognition of ListenEd accomplished with several steps. Voice recognition, natural language processing
+              and processing base verb form are those. The initial phase consists of voice recognition using the microphone
+              of the user’s device. In this phase Google speech recognition APIs are used to capture Sinhala voice commands.
+              After that the Sinhala voice commands are translated into English before the next phase. This translated text
+              is then sent to the backend for further execution.
+              Then the text is sent through a natural language processing algorithm. In here the sentence is broken down to
+              nouns verbs, adverbs, and adjectives. The other parts of the sentences are discarded. From that the verbs are
+              going through to the next phase.
+              The next phase is processing base verb form with machine learning. Machine learning models were trained using
+              a large data set which contained different types of verb forms. Preprocessing techniques were also used to
+              reduce the complexity of the dataset and improve accuracy. For the text classification model several algorithms
+              are tested and evaluated, including Support Vector Machine (SVM), Random Forest & Logistic Regression. Those
+              algorithms were trained using the dataset. Random Forest classifier achieved the best accuracy and results.
+              From those functions, the base form of the verb is predicted. Then that verb and others are sent to the frontend
+              as the response.
+            </p>
           </div>
         </div>
       </section>
