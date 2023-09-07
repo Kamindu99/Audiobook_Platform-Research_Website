@@ -64,26 +64,24 @@ const HomePage = (props: Props) => {
               </div>
               <div className="col-lg-5">
                 <p style={{ textAlign: 'justify' }} className='me-5'>
-                  State universities in Sri Lanka have a
-                  considerable proportion of fully visually impaired & partially
-                  visible students who face severe challenges in accessing essential
-                  learning materials. This research paper addresses the challenges
-                  faced by visually impaired students by proposing a novel
-                  solution to enhance their access to learning materials. ListenEd
-                  is a Sinhala voice-controlled audiobook application, which is
-                  primarily designed and developed to help students who are
-                  visually impaired. Apart from Sinhala voice recognition, this
-                  application gives students a secure biometric authentication
-                  method to access the application & a machine learning-based
-                  audiobook recommendation feature.
+                  Recent advances in deep neural networks have greatly improved speech recognition,
+                  but challenges persist for low-resource languages like Sinhala. ListenEd addresses
+                  Sinhala voice recognition issues through a combined approach, bridging accessibility
+                  gaps for the visually impaired in Sri Lanka.
                   <br /><br />
-                  Already many researches have been done for sign language
-                  translation. But there are no any sign language converter that can
-                  convert sign language to Sinhala language. In those researches users have to use some special devices such as
-                  hand gloves and a special camaras that can detect sign gestures and
-                  translate it. But in our research, we will be using camera only. It can be smart
-                  phone camera or normal web cam to identify the signs. Still in Sri Lanka there are no any devices have been created for this
-                  purpose.
+                  Some research has focused on Sinhala voice recognition, particularly for recognizing Sinhala
+                  digits and song names using Hidden Markov Models. However, due to a small dataset, this platform
+                  has accuracy limitations, mainly handling numeric and date/time queries. In contrast, ListenEd
+                  offers more accurate recognition for complex vocabulary.
+                  <br /><br />
+                  The Kaldi toolkit is a well-known open-source platform for voice recognition, but it requires
+                  substantial expertise and data curation for low-resource languages. ListenEd aims to provide faster
+                  and more accessible Sinhala voice recognition.
+                  <br /><br />
+                  <span style={{ fontSize: '10px' }}>References
+                    <br />
+                    [1] Nassif, I. Shahin, I. Attili, M. Azzeh and K. Shaalan, "Speech Recognition Using Deep Neural Networks: A Systematic Review," in IEEE Access, vol. 7, pp. 19143-19165, 2019, doi: 10.1109/ACCESS.2019.2896880.
+                  </span>
                 </p>
               </div>
             </div>
@@ -109,6 +107,36 @@ const HomePage = (props: Props) => {
             <i className="fas fa-comments"></i>
             <p className="work-heading">Information Sharing</p>
             <p className="work-text">Real time communication system to speed up information sharing between coconut growers, extension personals and researchers has been identified as priority need for effective pest and disease control.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className='mt-5'>
+        <h1 style={{ marginLeft: '8%' }}>Research Problem & Solution</h1>
+        <div className="container-fluid py-5" id="about">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
+                <h5 style={{ fontWeight: '700' }} className='ms-3'>Proposed Problem</h5>
+                <h5 style={{ fontWeight: '700', color: 'orange' }} className='ms-3'>What are the current challenges faced by visually impaired university students in accessing learning materials and resources?</h5>
+                <p style={{ textAlign: 'justify' }} className='ms-3 mt-4'>
+                  Develop a voice-controlled system that is user-friendly and accessible for visually impaired students,
+                  which contains Sinhala voice recognition, voice-controlled system navigations. The students can use Sinhala
+                  language to navigate through ListenEd, control playbacks and search audiobooks accordingly. Therefore,
+                  ListenEd will help visually impaired students to get equal opportunities for their education.
+
+                  <br /><br />
+                  But the steps that are taken to enhance the education of visual impaired people are very low.
+                  It is really important to provide easily accessible educational materials to individuals who are
+                  visually impaired. ListenEd application is based on Sinhala language with Sinhala voice recognition
+                  enabled. So that the majority of students can use this application to enhance their academic performances.
+                  ListenEd recognize Sinhala commands and executes accordingly.
+                </p>
+              </div>
+              <div className="col-lg-6 pb-4 pb-lg-0">
+                <iframe style={{ marginLeft: '5%' }} width="560" height="315" src="https://www.youtube.com/embed/sW8ikZebCTc?si=lJu26JXwc25FXIci" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </section>
