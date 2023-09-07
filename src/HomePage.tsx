@@ -55,6 +55,43 @@ const HomePage = (props: Props) => {
         {/* <button>Learn More</button> */}
       </div>
       <section className='mt-5'>
+        <h1 style={{ marginLeft: '8%' }}>Literature Survey</h1>
+        <div className="container-fluid py-5" id="about">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-7 pb-4 pb-lg-0">
+                <img className="img-fluid rounded " style={{ height: '500px', marginLeft: '2%' }} src="https://samitha-vidhanaarachchi.github.io/Research-Website/Images/lit/stat.jpg" alt="" />
+              </div>
+              <div className="col-lg-5">
+                <p style={{ textAlign: 'justify' }} className='me-5'>
+                  State universities in Sri Lanka have a
+                  considerable proportion of fully visually impaired & partially
+                  visible students who face severe challenges in accessing essential
+                  learning materials. This research paper addresses the challenges
+                  faced by visually impaired students by proposing a novel
+                  solution to enhance their access to learning materials. ListenEd
+                  is a Sinhala voice-controlled audiobook application, which is
+                  primarily designed and developed to help students who are
+                  visually impaired. Apart from Sinhala voice recognition, this
+                  application gives students a secure biometric authentication
+                  method to access the application & a machine learning-based
+                  audiobook recommendation feature.
+                  <br /><br />
+                  Already many researches have been done for sign language
+                  translation. But there are no any sign language converter that can
+                  convert sign language to Sinhala language. In those researches users have to use some special devices such as
+                  hand gloves and a special camaras that can detect sign gestures and
+                  translate it. But in our research, we will be using camera only. It can be smart
+                  phone camera or normal web cam to identify the signs. Still in Sri Lanka there are no any devices have been created for this
+                  purpose.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='mt-5'>
         <h1 style={{ marginLeft: '8%' }}>Research Gap</h1>
         <p style={{ marginLeft: '8%' }}>Following areas are the research gaps found in most of the recent researches.</p>
         <div className="achievements">
@@ -75,44 +112,6 @@ const HomePage = (props: Props) => {
           </div>
         </div>
       </section>
-
-      {/* <div className="container-fluid py-5" id="about">
-        <div className="container">
-          <div className="position-relative d-flex align-items-center justify-content-center">
-            <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>About</h1>
-            <h1 className="position-absolute text-uppercase text-primary">About Me</h1>
-          </div>
-          <div className="row align-items-center">
-            <div className="col-lg-5 pb-4 pb-lg-0">
-              <img className="img-fluid rounded " style={{ height: '500px', marginTop: '-16%', marginLeft: '20%' }} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687031468/myprof_t8slio.png" alt="" />
-            </div>
-            <div className="col-lg-7">
-              <h3 className="mb-4">Software Engineer & Web Developer</h3>
-              <p style={{ textAlign: 'justify' }} className='me-5'>
-                I am Kamindu Gayantha Wanigasinghe and 24 years old. I am currently pursuing my degree in Software Engineering in Sri Lanka Institute of Information Technology.
-                During my academic life, I obtained a thorough understanding of several programming languages, algorithms, and software development methodologies.
-                I am passionate to leverage my technical skills and knowledge to contribute to the creation of innovative software solutions that positively impact people's lives.
-              </p>
-              <div className="row mb-3">
-                <div className="col-sm-6 py-2"><h6>Name: <span className="text-secondary">Kamindu Gayantha</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Birthday: <span className="text-secondary">7 December 1999</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Undergraduate at SLIIT</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">1 Years</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">071 5273881</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamidugayantha123@gmail.com</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">2nd mail post, Maudella, Dela</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
-              </div>
-              <a className="btn blue btn-outline-primary me-4" onClick={handleCVClick}>
-                View My CV
-              </a>
-              <a className="btn blue btn-outline-primary me-4" >
-                Download My CV
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       {/* <div className="container-fluid py-5" id="skill">
         <div className="container">
