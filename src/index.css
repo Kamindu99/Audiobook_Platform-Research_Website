@@ -417,6 +417,27 @@ button.btn.btn-link i {
   width: 85%
 }
 
+.meetteam .carddowndolad {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: .19s;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.meetteam .carddowndolad:hover {
+  scale: 1.06;
+}
+
+.meetteam .carddowndolad:hover .docicon {
+  color: orange;
+  transition: 0.3s;
+}
+
 .meetteam .img-card {
   width: 100%;
   height: 250px;

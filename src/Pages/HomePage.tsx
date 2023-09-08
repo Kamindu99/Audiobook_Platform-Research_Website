@@ -1,4 +1,5 @@
 import ContactUs from './ContactUs';
+import Downloads from './Downloads';
 import LiteratureSurvey from './LiteratureSurvey';
 import MeetOurTeam from './MeetOurTeam';
 import ResearchGap from './ResearchGap';
@@ -21,6 +22,7 @@ const HomePage = (props: Props) => {
       <ResearchProblem />
       {/* <ResearchObjectives /> */}
       <TechnologyUsed />
+      <Downloads />
       <MeetOurTeam />
       <ContactUs />
 
