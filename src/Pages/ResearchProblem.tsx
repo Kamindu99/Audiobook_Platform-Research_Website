@@ -2,7 +2,7 @@ import React from 'react'
 
 function ResearchProblem() {
     return (
-        <section className='mt-1'>
+        <section className='mt-1' id="Problem">
             <h1 style={{ marginLeft: '8%' }}>Research Problem & Solution</h1>
             <br /><br />
             <div className="container-fluid " id="about">

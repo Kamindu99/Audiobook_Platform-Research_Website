@@ -67,10 +67,10 @@ function MeetOurTeam() {
                                     </p>
                                 </div>
                                 <div className="card-read-more">
-                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block ms-2">
+                                    <a href="/" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block ms-2">
                                         <i className="fab fa-google me-1"></i> G-Scholar
                                     </a>
-                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block">
+                                    <a href="/" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block">
                                         <i className="fas fa-envelope-open-text me-1"></i> E-Mail
                                     </a>
                                 </div>
@@ -98,10 +98,10 @@ function MeetOurTeam() {
                                     </p>
                                 </div>
                                 <div className="card-read-more">
-                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block ms-2">
+                                    <a href="/" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block ms-2">
                                         <i className="fab fa-google me-1"></i> G-Scholar
                                     </a>
-                                    <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block">
+                                    <a href="/" style={{ fontSize: '14px', color: 'green' }} className="btn btn-link btn-block">
                                         <i className="fas fa-envelope-open-text me-1"></i> E-Mail
                                     </a>
                                 </div>

@@ -81,7 +81,7 @@ function Downloads() {
     ]
 
     return (
-        <section className='mt-5 meetteam' style={{ backgroundColor: '#faefe6', padding: '30px' }} id='Downloads'>
+        <section className='mt-5 meetteam' style={{ backgroundColor: '#faefe6', padding: '30px' }} id='Documents'>
             <h1 style={{ marginLeft: '8%' }} className='mb-5'>Downloads</h1>
 
             <h4 style={{ marginLeft: '10%' }}>Documents</h4>
@@ -112,7 +112,7 @@ function Downloads() {
                 </div>
             </div>
 
-            <h4 style={{ marginLeft: '10%' }}>Presentations</h4>
+            <h4 style={{ marginLeft: '10%' }} id='Presentations'>Presentations</h4>
             <p style={{ marginLeft: '10%' }}>Please find all presentations related this project below.</p>
             <div className=" mt-4" style={{ marginInlineStart: '14%', marginInlineEnd: '14%' }}>
                 <div className="row">

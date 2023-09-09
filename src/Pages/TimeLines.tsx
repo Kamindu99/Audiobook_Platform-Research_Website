@@ -70,7 +70,7 @@ function TimeLines() {
 
 
     return (
-        <section className='mt-5 timelinecss'>
+        <section className='mt-5 timelinecss' id='milestones'>
             <h1 style={{ marginLeft: '8%' }}>Timeline in Brief</h1>
 
             <div className="container py-5 ">

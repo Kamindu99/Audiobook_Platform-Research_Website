@@ -2,7 +2,7 @@ import React from 'react'
 
 function ResearchObjectives() {
     return (
-        <section className='mt-5 objectives ' id="objective">
+        <section className='mt-5 objectives ' id="Objectives">
             <h1 style={{ marginLeft: '8%' }}>Research Objectives</h1>
             <div className="mt-5" style={{ marginLeft: '15%', marginRight: '15%' }}>
                 <div className="container mt-5">
