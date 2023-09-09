@@ -2,7 +2,7 @@
 
 ### [Live Site](https://listened.netlify.app/)
 
-![Audio Book System](https://res.cloudinary.com/dmfljlyu1/image/upload/v1694033302/listened_logo_uhmrcj.png)
+![Audio Book System](https://res.cloudinary.com/dmfljlyu1/image/upload/v1694279205/audiobooks_nnku6g.jpg)
 
 The main objective of the proposed voice-controlled audio book system is to provide visually impaired university students in Sri Lanka with access to educational materials, such as audio books, in a convenient and user-friendly format. This will help overcome the barriers these students face in accessing traditional learning materials and provide them with the tools they need to complete their higher studies. The ultimate goal is to support the educational development of visually impaired university students in Sri Lanka and provide them with equal opportunities for learning and academic success.
 
