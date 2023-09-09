@@ -19,7 +19,7 @@ function TimeLines() {
         },
         {
             name: 'Progress Presentation I',
-            date: 'March 2023',
+            date: 'May 2023',
             progress: '27%',
             mark: '15',
             description: 'Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.'
@@ -33,35 +33,35 @@ function TimeLines() {
         },
         {
             name: 'Progress Presentation II',
-            date: 'July 2023',
+            date: 'August 2023',
             progress: '55%',
             mark: '18',
             description: 'Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.'
         },
         {
             name: 'Website Assessment',
-            date: 'July 2023',
+            date: 'August 2023',
             progress: '57%',
             mark: '2',
             description: 'The Website helps to promote our research project and reveals all details related to the project.'
         },
         {
             name: 'Logbook',
-            date: 'July 2023',
+            date: 'September 2023',
             progress: '60%',
             mark: '3',
             description: 'Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.'
         },
         {
             name: 'Final Report',
-            date: 'July 2023',
+            date: 'October 2023',
             progress: '80%',
             mark: '20',
             description: 'Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.'
         },
         {
             name: 'Final Presentation & Viva',
-            date: 'July 2023',
+            date: 'November 2023',
             progress: '100%',
             mark: '20',
             description: 'Viva is held individually to assess each members contribution to the project.'
