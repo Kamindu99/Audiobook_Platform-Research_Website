@@ -87,21 +87,21 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto" style={{ marginRight: '2%' }}>
                         <li className="nav-item">
-                            <a onClick={() => { activeSection("home") }} className={`nav-link nav-link-a-text me-5 ${isHome ? 'active' : ''}`} aria-current="page" href="/#home">Home</a>
+                            <a onClick={() => { activeSection("home") }} className={`nav-link nav-link-a-text me-5 ${isHome ? 'active' : ''}`} aria-current="page" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a onClick={() => { activeSection("ProjectScope") }} className={`nav-link nav-link-a-text me-5 ${isProjectScope ? 'active' : ''}`} href="/#ProjectScope">Project Scope</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a onClick={() => { activeSection("milestones") }} href='/#milestones' className={`nav-link me-5 nav-link-a-text ${ismilestones ? 'active' : ''}`}>Milestones</a>
+                            <a onClick={() => { activeSection("ProjectScope") }} className={`nav-link nav-link-a-text me-5 ${isProjectScope ? 'active' : ''}`} href="#ProjectScope">Project Scope</a>
                         </li>
 
                         <li className="nav-item">
-                            <a onClick={() => { activeSection("Downloads") }} className={`nav-link nav-link-a-text me-5 ${isDownloads ? 'active' : ''}`} href="/#Downloads">Downloads</a>
+                            <a onClick={() => { activeSection("milestones") }} href='#milestones' className={`nav-link me-5 nav-link-a-text ${ismilestones ? 'active' : ''}`}>Milestones</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a onClick={() => { activeSection("Downloads") }} className={`nav-link nav-link-a-text me-5 ${isDownloads ? 'active' : ''}`} href="#Downloads">Downloads</a>
                         </li>
                         <li className="nav-item">
-                            <a onClick={() => { activeSection("aboutus") }} className={`nav-link nav-link-a-text me-5 ${isAboutUs ? 'active' : ''}`} href="/#aboutus" >About Us</a>
+                            <a onClick={() => { activeSection("aboutus") }} className={`nav-link nav-link-a-text me-5 ${isAboutUs ? 'active' : ''}`} href="#aboutus" >About Us</a>
                         </li>
                         <li className="nav-item">
                             <a onClick={() => { activeSection("ContactUs") }} className={`nav-link nav-link-a-text me-5 ${isContactUs ? 'active' : ''}`} href="/#ContactUs" >Contact Us</a>
