@@ -7,7 +7,7 @@ function ResearchObjectives() {
             <div className="mt-5" style={{ marginLeft: '15%', marginRight: '15%' }}>
                 <div className="container mt-5">
 
-                    <div className="row align-items-center how-it-works d-flex">
+                    <div className="row align-items-center  d-flex">
                         <div className="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
                             <div className="circle font-weight-bold">1</div>
                         </div>
@@ -55,7 +55,7 @@ function ResearchObjectives() {
                         </div>
                     </div>
 
-                    <div className="row align-items-center how-it-works d-flex">
+                    <div className="row align-items-center  d-flex">
                         <div className="col-2 text-center top d-inline-flex justify-content-center align-items-center">
                             <div className="circle font-weight-bold">3</div>
                         </div>

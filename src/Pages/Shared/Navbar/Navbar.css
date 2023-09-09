@@ -11,7 +11,7 @@
     background: rgb(255, 255, 255);
     position: fixed !important;
     width: 100%;
-    z-index: 99 !important;
+    z-index: 3 !important;
     transition: 0.5s !important;
     color: white !important;
     height: 70px !important;

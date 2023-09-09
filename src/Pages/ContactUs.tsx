@@ -5,12 +5,11 @@ function ContactUs() {
     const handleSubmit = (e: any) => {
         e.preventDefault();
 
-        // Your EmailJS service ID, template ID, and user ID
+        // EmailJS service ID, template ID, and user ID
         const serviceID = 'service_enqwz5g';
         const templateID = 'template_uo5wmtr';
         const userID = '2ZDkcLHfPtIIlKu3V';
 
-        // Replace with the actual email field values
         const name = e.target.elements.name.value;
         const email = e.target.elements.email.value;
         const subject = e.target.elements.subject.value;
@@ -26,7 +25,7 @@ function ContactUs() {
             .then((response) => {
                 console.log('Email sent successfully!', response.status, response.text);
                 alert('Email sent successfully!');
-                // Reset the form here if needed
+                // Reset the form
                 e.target.elements.name.value = ''
                 e.target.elements.email.value = ''
                 e.target.elements.subject.value = ''

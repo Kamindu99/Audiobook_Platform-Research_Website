@@ -484,7 +484,7 @@ button.btn.btn-link i {
   background-color: #e88725;
   color: #fff;
   max-height: 50px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .objectives .how-it-works.row .col-2 {
@@ -495,7 +495,7 @@ button.btn.btn-link i {
   content: "";
   position: absolute;
   border-left: 3px solid #e88725;
-  z-index: 1;
+  z-index: 2;
 }
 
 .objectives .how-it-works.row .col-2.bottom::after {
@@ -582,8 +582,8 @@ button.btn.btn-link i {
   left: 16px;
   width: 4px;
   height: 100%;
-  z-index: 400;
   border-radius: 1rem;
+  z-index: 1;
 }
 
 .timelinecss li.timeline-item {
@@ -609,7 +609,7 @@ button.btn.btn-link i {
   left: 7px;
   width: 20px;
   height: 20px;
-  z-index: 400;
+  z-index: 2;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
