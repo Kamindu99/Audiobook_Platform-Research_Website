@@ -576,7 +576,7 @@ button.btn.btn-link i {
 
 .timelinecss ul.timeline:before {
   content: ' ';
-  background: #ff0000;
+  background: #e4840e;
   display: inline-block;
   position: absolute;
   left: 16px;
@@ -592,7 +592,7 @@ button.btn.btn-link i {
 
 .timelinecss .timeline-arrow {
   border-top: 0.5rem solid transparent;
-  border-right: 0.9rem solid #ff0000;
+  border-right: 0.9rem solid #ff7300;
   border-bottom: 0.5rem solid transparent;
   display: block;
   position: absolute;
@@ -601,14 +601,14 @@ button.btn.btn-link i {
 
 .timelinecss li.timeline-item::before {
   content: ' ';
-  background: #00620b;
+  background: #ac6202;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 4px solid #8fafee;
-  left: 7px;
-  width: 20px;
-  height: 20px;
+  border: 4px solid #ddcf11;
+  left: 5px;
+  width: 25px;
+  height: 25px;
   z-index: 2;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
