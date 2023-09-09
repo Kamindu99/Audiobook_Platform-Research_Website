@@ -44,7 +44,7 @@ function MeetOurTeam() {
     ]
 
     return (
-        <section className='mt-5 meetteam'>
+        <section className='mt-5 meetteam' id='aboutus'>
             <h1 style={{ marginLeft: '8%' }}>Meet Our Team !</h1>
             <div className="container mt-5">
                 <div className="row">

@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-    //const {user, loading, error, dispatch} = useContext(AuthContext);
     const [isSticky, setSticky] = useState(false)
 
     useEffect(() => {
@@ -16,14 +15,58 @@ const Navbar = () => {
         })
     }, [])
 
-    const str = window.location.href;
+    const [isHome, setIsHome] = useState(false)
+    const [isProjectScope, setIsProjectScope] = useState(false)
+    const [ismilestones, setIsmilestones] = useState(false)
+    const [isDownloads, setIsDownloads] = useState(false)
+    const [isAboutUs, setIsAboutUs] = useState(false)
+    const [isContactUs, setIsContactUs] = useState(false)
 
-    const isGallery = str.includes("/my-photo");
-    const isProject = str.includes("/my-projects");
-    const isContactMe = str.includes("/#contact");
-    const isAboutUs = str.includes("/#about");
-
-    let isHome = str.includes("#home");
+    function activeSection(path: any) {
+        if (path === 'home') {
+            setIsHome(true)
+            setIsProjectScope(false)
+            setIsmilestones(false)
+            setIsDownloads(false)
+            setIsAboutUs(false)
+            setIsContactUs(false)
+        } else if (path === 'ProjectScope') {
+            setIsHome(false)
+            setIsProjectScope(true)
+            setIsmilestones(false)
+            setIsDownloads(false)
+            setIsAboutUs(false)
+            setIsContactUs(false)
+        } else if (path === 'milestones') {
+            setIsHome(false)
+            setIsProjectScope(false)
+            setIsmilestones(true)
+            setIsDownloads(false)
+            setIsAboutUs(false)
+            setIsContactUs(false)
+        } else if (path === 'Downloads') {
+            setIsHome(false)
+            setIsProjectScope(false)
+            setIsmilestones(false)
+            setIsDownloads(true)
+            setIsAboutUs(false)
+            setIsContactUs(false)
+        } else if (path === 'aboutus') {
+            setIsHome(false)
+            setIsProjectScope(false)
+            setIsmilestones(false)
+            setIsDownloads(false)
+            setIsAboutUs(true)
+            setIsContactUs(false)
+        } else if (path === 'ContactUs') {
+            setIsHome(false)
+            setIsProjectScope(false)
+            setIsmilestones(false)
+            setIsDownloads(false)
+            setIsAboutUs(false)
+            setIsContactUs(true)
+        }
+    }
 
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${isSticky ? "stickynav" : "normalnav"}`} >
@@ -44,25 +87,24 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto" style={{ marginRight: '2%' }}>
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-5 ${isHome ? 'active' : ''}`} aria-current="page" href="/#home">Home</a>
+                            <a onClick={() => { activeSection("home") }} className={`nav-link nav-link-a-text me-5 ${isHome ? 'active' : ''}`} aria-current="page" href="/#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-5 ${isAboutUs ? 'active' : ''}`} href="/#ProjectScope">Project Scope</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a href='/#milestones' className={`nav-link me-5 nav-link-a-text ${isContactMe ? 'active' : ''}`}>Milestones</a>
+                            <a onClick={() => { activeSection("ProjectScope") }} className={`nav-link nav-link-a-text me-5 ${isProjectScope ? 'active' : ''}`} href="/#ProjectScope">Project Scope</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-5 ${isProject ? 'active' : ''}`} href="#Downloads">Downloads</a>
+                            <a onClick={() => { activeSection("milestones") }} href='/#milestones' className={`nav-link me-5 nav-link-a-text ${ismilestones ? 'active' : ''}`}>Milestones</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-5 ${isGallery ? 'active' : ''}`} href="#AboutUs" >About Us</a>
+                            <a onClick={() => { activeSection("Downloads") }} className={`nav-link nav-link-a-text me-5 ${isDownloads ? 'active' : ''}`} href="/#Downloads">Downloads</a>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-5 ${isGallery ? 'active' : ''}`} href="#ContactUs" >Contact Us</a>
+                            <a onClick={() => { activeSection("aboutus") }} className={`nav-link nav-link-a-text me-5 ${isAboutUs ? 'active' : ''}`} href="/#aboutus" >About Us</a>
+                        </li>
+                        <li className="nav-item">
+                            <a onClick={() => { activeSection("ContactUs") }} className={`nav-link nav-link-a-text me-5 ${isContactUs ? 'active' : ''}`} href="/#ContactUs" >Contact Us</a>
                         </li>
                     </ul>
                 </div>

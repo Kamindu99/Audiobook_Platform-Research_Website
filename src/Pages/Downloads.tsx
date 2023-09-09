@@ -69,7 +69,7 @@ function Downloads() {
     ]
 
     return (
-        <section className='mt-5 meetteam' style={{ backgroundColor: '#faefe6', padding: '30px' }}>
+        <section className='mt-5 meetteam' style={{ backgroundColor: '#faefe6', padding: '30px' }} id='Downloads'>
             <h1 style={{ marginLeft: '8%' }} className='mb-5'>Downloads</h1>
 
             <h4 style={{ marginLeft: '10%' }}>Documents</h4>
