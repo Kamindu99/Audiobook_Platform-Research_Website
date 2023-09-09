@@ -1,34 +1,39 @@
-.navbar-h{
+.navbar-h {
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
 }
+
 .stickynav {
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     background: rgb(255, 255, 255);
-    position: fixed!important;
+    position: fixed !important;
     width: 100%;
-    z-index: 99!important;
-    transition: 0.5s!important;
-    color:white !important;
+    z-index: 99 !important;
+    transition: 0.5s !important;
+    color: white !important;
+    height: 70px !important;
 }
+
 .normalnav {
-    transition: 0.5s!important;
+    transition: 0.5s !important;
 }
-.textDark{
+
+.textDark {
     color: black !important;
 }
-.textWhite{
+
+.textWhite {
     color: white !important;
 }
 
 .nav-link.active {
-font-weight: 600;
-font-size: large;
-  }
-
-  .nav-link-a-text {
+    font-weight: 600;
     font-size: large;
-      }
+}
+
+.nav-link-a-text {
+    font-size: large;
+}
