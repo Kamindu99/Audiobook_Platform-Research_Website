@@ -104,7 +104,7 @@ const Navbar = () => {
                             <a onClick={() => { activeSection("aboutus") }} className={`nav-link nav-link-a-text me-5 ${isAboutUs ? 'active' : ''}`} href="#aboutus" >About Us</a>
                         </li>
                         <li className="nav-item">
-                            <a onClick={() => { activeSection("ContactUs") }} className={`nav-link nav-link-a-text me-5 ${isContactUs ? 'active' : ''}`} href="/#ContactUs" >Contact Us</a>
+                            <a onClick={() => { activeSection("ContactUs") }} className={`nav-link nav-link-a-text me-5 ${isContactUs ? 'active' : ''}`} href="#ContactUs" >Contact Us</a>
                         </li>
                     </ul>
                 </div>
