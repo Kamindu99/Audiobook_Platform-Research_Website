@@ -13,50 +13,50 @@ function TimeLines() {
         {
             name: 'Progress Presentation I',
             date: 'March 2023',
-            progress: '6%',
+            progress: '12%',
             mark: '6',
             description: 'Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.'
         },
         {
             name: 'Research Paper',
             date: 'July 2023',
-            progress: '6%',
+            progress: '22%',
             mark: '10',
             description: 'Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge'
         },
         {
             name: 'Progress Presentation II',
             date: 'July 2023',
-            progress: '6%',
-            mark: '10',
+            progress: '40%',
+            mark: '18',
             description: 'Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.'
         },
         {
             name: 'Website Assessment',
             date: 'July 2023',
-            progress: '6%',
-            mark: '10',
+            progress: '42%',
+            mark: '2',
             description: 'The Website helps to promote our research project and reveals all details related to the project.'
         },
         {
             name: 'Logbook',
             date: 'July 2023',
-            progress: '6%',
-            mark: '10',
+            progress: '45%',
+            mark: '3',
             description: 'Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.'
         },
         {
             name: 'Final Report',
             date: 'July 2023',
-            progress: '6%',
-            mark: '10',
+            progress: '64%',
+            mark: '19',
             description: 'Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.'
         },
         {
             name: 'Final Presentation & Viva',
             date: 'July 2023',
-            progress: '6%',
-            mark: '10',
+            progress: '84%',
+            mark: '20',
             description: 'Viva is held individually to assess each members contribution to the project.'
         }
     ]
@@ -76,7 +76,7 @@ function TimeLines() {
                                 <li className="timeline-item rounded ml-3 p-4 shadow">
                                     <div className="timeline-arrow mt-1"></div>
                                     <p className=" mb-2">
-                                        <span style={{ background: 'black', padding: '3px', color: 'white', fontSize: '13px' }}>{timeline?.date}</span>
+                                        <span style={{ background: 'black', padding: '3px 10px 3px 10px', color: 'white', fontSize: '13px' }}>{timeline?.date}</span>
                                     </p>
                                     <h4 className=" text-gray">{timeline?.name}</h4>
                                     <p className="text-small mt-2 font-weight-light">

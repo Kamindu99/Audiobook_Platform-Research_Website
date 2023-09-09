@@ -30,12 +30,12 @@ const Footer = () => {
                         </div>
                         <div className="col-md-2 col-sm-2 col-xs-2"></div>
                         <div className="col-md-2 col-sm-2 col-xs-2">
-                            <h5 className="heading">Tools</h5>
+                            <h5 className="heading">Team Members</h5>
                             <ul>
-                                <li>Python</li>
-                                <li>React Js</li>
-                                <li>GitHub</li>
-                                <li>Dijango</li>
+                                <li>Vihanga Janith</li>
+                                <li>Amanda Nethmini</li>
+                                <li>Kavindu Perera</li>
+                                <li>Kamindu Gayantha</li>
                             </ul>
                         </div>
                         <div className="col-md-2 col-sm-2 col-xs-2">
@@ -60,7 +60,7 @@ const Footer = () => {
                     <div className="divider mb-4"> </div>
                     <div className="row" style={{ fontSize: "10px", textAlign: "center" }}>
                         <div>
-                            Designed and Developed by SLIIT <br />
+                            Designed and Developed by ListenEd Team <br />
                         </div>
                     </div>
                 </div>
