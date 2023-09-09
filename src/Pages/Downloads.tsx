@@ -6,42 +6,50 @@ function Downloads() {
         {
             name: 'Topic Assessment',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://drive.google.com/file/d/1ObuCrvXR3lcjzy4pl__sJSXniybjoRyi/view?usp=drive_link'
         },
         {
             name: 'Project Charter',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://drive.google.com/file/d/1_htIDM3_VKFMnihcoO2NYKeLPlhkEUV5/view?usp=drive_link'
         },
         {
             name: 'Project Proposal',
             submittionDate: '2021-09-30',
-            grouporindi: 'Individual'
+            grouporindi: 'Individual',
+            link: 'https://drive.google.com/drive/folders/13a1I8gtyxZJFrRnr00RN0GDTr-1za9IO?usp=sharing'
         },
         {
             name: 'Status Documents I',
             submittionDate: '2021-09-30',
-            grouporindi: 'Individual'
+            grouporindi: 'Individual',
+            link: 'https://drive.google.com/drive/folders/1ZgFFzwgeocSz9fnA6YupxallIXoRkOH0?usp=sharing'
         },
         {
             name: 'Status Documents II',
             submittionDate: '2021-09-30',
-            grouporindi: 'Individual'
+            grouporindi: 'Individual',
+            link: 'https://drive.google.com/drive/folders/1HpetsDgqWXS0gtXdCE1n50Pw6g6GCrmJ?usp=sharing'
         },
         {
             name: 'Research Paper',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://docs.google.com/document/d/1u2Ev6a1kl5fOcmMq9ckj1Kpi_eZUgeZt/edit?usp=drive_link&ouid=103377744581256570865&rtpof=true&sd=true'
         },
         {
             name: 'Final Report',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://drive.google.com/drive/folders/125NvnlJuNx-k4tu3_7mp3xNk-byDK8UT?usp=sharing'
         },
         {
             name: 'Poster',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://drive.google.com/file/d/1wUpyDW7Tiu6D-qUpBkIF9GMP2BAu3InH/view?usp=drive_link'
         }
     ]
 
@@ -49,22 +57,26 @@ function Downloads() {
         {
             name: 'Project Proposal',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://drive.google.com/file/d/1EKhiJ7y6YhSr3JQ9ff8lK-ERNVb4MIF2/view?usp=drive_link'
         },
         {
             name: 'Progress Presentation I',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://docs.google.com/presentation/d/1LAP-b_1J9yQVUmNLksd6wwbesy6QMWfF/edit?usp=drive_link&ouid=103377744581256570865&rtpof=true&sd=true'
         },
         {
             name: 'Progress Presentation II',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://docs.google.com/presentation/d/1s9u8_vMEfbCZjTUJkts03SmG0HTnUB2v/edit?usp=drive_link&ouid=103377744581256570865&rtpof=true&sd=true'
         },
         {
             name: 'Final Presentation',
             submittionDate: '2021-09-30',
-            grouporindi: 'Group'
+            grouporindi: 'Group',
+            link: 'https://docs.google.com/presentation/d/17qzx41Pf4emIEr3OneN903YmDcP1WS5r/edit?usp=drive_link&ouid=103377744581256570865&rtpof=true&sd=true'
         }
     ]
 
@@ -90,7 +102,7 @@ function Downloads() {
                                     <p style={{ fontSize: '15px', color: 'black', textDecoration: 'none', fontWeight: '500' }} className="btn btn-link btn-block ms-2">
                                         {document?.grouporindi}
                                     </p>
-                                    <p style={{ fontSize: '15px', color: 'green', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block">
+                                    <p style={{ fontSize: '15px', color: 'green', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block" onClick={() => { window.open(`${document?.link}`) }}>
                                         <i className="fas fa-download me-1"></i> Download
                                     </p>
                                 </div>
@@ -118,7 +130,7 @@ function Downloads() {
                                     <p style={{ fontSize: '15px', color: 'black', textDecoration: 'none', fontWeight: '500' }} className="btn btn-link btn-block ms-2">
                                         {presentation?.grouporindi}
                                     </p>
-                                    <p style={{ fontSize: '15px', color: 'green', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block">
+                                    <p style={{ fontSize: '15px', color: 'green', float: 'right', textDecoration: 'none' }} className="btn btn-link btn-block" onClick={() => { window.open(`${presentation?.link}`) }}>
                                         <i className="fas fa-download me-1"></i> Download
                                     </p>
                                 </div>
