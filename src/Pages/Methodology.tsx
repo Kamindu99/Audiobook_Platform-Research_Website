@@ -2,7 +2,7 @@ import React from 'react'
 
 function Methodology() {
     return (
-        <section className='mt-5'>
+        <section className='mt-5' id="milestones">
             <h1 style={{ marginLeft: '8%' }}>Methodology</h1>
             <div className="container-fluid py-5" id="about">
                 <div className="container">
