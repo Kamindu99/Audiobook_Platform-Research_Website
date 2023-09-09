@@ -9,11 +9,6 @@ function ResearchObjectives() {
             </section>
 
             <section className='mt-5'>
-                <h1 style={{ marginLeft: '8%' }}>Methodology</h1>
-
-            </section>
-
-            <section className='mt-5'>
                 <h1 style={{ marginLeft: '8%' }}>Timeline in Brief</h1>
 
             </section>
