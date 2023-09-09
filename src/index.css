@@ -473,3 +473,91 @@ button.btn.btn-link i {
 }
 
 /* meet team css end */
+
+/*Objectives css */
+
+.objectives {}
+
+.objectives .circle {
+  padding: 13px 20px;
+  border-radius: 50%;
+  background-color: #e88725;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.objectives .how-it-works.row .col-2 {
+  align-self: stretch;
+}
+
+.objectives .how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #e88725;
+  z-index: 1;
+}
+
+.objectives .how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+
+.objectives .how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+
+.objectives .how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+
+.objectives .timeline div {
+  padding: 0;
+  height: 40px;
+}
+
+.objectives .timeline hr {
+  border-top: 3px solid #ff8000;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+
+.objectives .timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+
+.objectives .timeline .corner {
+  border: 3px solid #e88725;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+.objectives .timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+
+.objectives .timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+
+.objectives .timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+
+.objectives .timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
+/*Objectives css end */

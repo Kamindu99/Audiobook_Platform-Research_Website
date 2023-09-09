@@ -4,8 +4,10 @@ import LiteratureSurvey from './LiteratureSurvey';
 import MeetOurTeam from './MeetOurTeam';
 import Methodology from './Methodology';
 import ResearchGap from './ResearchGap';
+import ResearchObjectives from './ResearchObjectives';
 import ResearchProblem from './ResearchProblem';
 import TechnologyUsed from './TechnologyUsed';
+import TimeLines from './TimeLines';
 
 type Props = {}
 
@@ -21,9 +23,10 @@ const HomePage = (props: Props) => {
       <LiteratureSurvey />
       <ResearchGap />
       <ResearchProblem />
-      {/* <ResearchObjectives /> */}
+      <ResearchObjectives />
       <Methodology />
       <TechnologyUsed />
+      <TimeLines />
       <Downloads />
       <MeetOurTeam />
       <ContactUs />
