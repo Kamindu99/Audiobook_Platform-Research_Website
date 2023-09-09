@@ -36,7 +36,7 @@ function MeetOurTeam() {
             department: 'Computer Science & Software Engineering'
         },
         {
-            name: 'Wanigasinghe W.W.L.K.G',
+            name: 'Wanigasinghe W.W.L.K.G.',
             position: 'Group Member',
             image: 'https://media.licdn.com/dms/image/C5603AQGnBMwskpBqvw/profile-displayphoto-shrink_800_800/0/1656409186148?e=2147483647&v=beta&t=1JY6ZWlcPp7IySxX-_I6ECkodmTMZFKR4WA1K5nl75A',
             department: 'Computer Science & Software Engineering'
