@@ -8,7 +8,7 @@ function LiteratureSurvey() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-7 pb-4 pb-lg-0">
-                            <img className="img-fluid rounded " style={{ height: '500px', marginLeft: '2%' }} src="https://samitha-vidhanaarachchi.github.io/Research-Website/Images/lit/stat.jpg" alt="" />
+                            <img className="img-fluid rounded " style={{ height: '500px', marginLeft: '2%' }} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1694345563/xaxa_3_xzsjvr.jpg" alt="" />
                         </div>
                         <div className="col-lg-5">
                             <p style={{ textAlign: 'justify' }} className='me-5'>
