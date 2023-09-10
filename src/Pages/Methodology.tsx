@@ -12,13 +12,13 @@ function Methodology() {
                         </div>
                         <div className="col-lg-5">
                             <p style={{ textAlign: 'justify' }} className='me-5'>
-                                The proposed pest and disease Surveillance system consists of 4 main components. They are;
+                                The proposed Audio Book system consists of 4 main components. They are;
                                 <br /><br /><ol style={{ fontWeight: '600', marginLeft: '5%' }}>
-                                    <li>WCLWD and its symptom severity identification</li>
-                                    <li>CCI Identification and progression level determination</li>
-                                    <li>Deficiency Identification (Mg deficiency and Leaf Scorch Decline)</li>
-                                    <li>Water resource identification</li>
-                                    <li>Crowdsourcing for information sharing</li>
+                                    <li>Bio-metric Identification</li>
+                                    <li>Colorbase Identification</li>
+                                    <li>Navigation using Voice Commands</li>
+                                    <li>Voice Controlled Audio Book Player</li>
+                                    <li>Audio Book Recommendation System</li>
                                 </ol>
                                 Some research has focused on Sinhala voice recognition, particularly for recognizing Sinhala
                                 digits and song names using Hidden Markov Models. However, due to a small dataset, this platform
