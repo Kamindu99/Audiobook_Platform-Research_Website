@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Audiobook_Platform-Research_Website/static/css/main.fbfb4501.css",
-    "main.js": "/Audiobook_Platform-Research_Website/static/js/main.e688d3ab.js",
+    "main.js": "/Audiobook_Platform-Research_Website/static/js/main.f3726041.js",
     "index.html": "/Audiobook_Platform-Research_Website/index.html",
     "main.fbfb4501.css.map": "/Audiobook_Platform-Research_Website/static/css/main.fbfb4501.css.map",
-    "main.e688d3ab.js.map": "/Audiobook_Platform-Research_Website/static/js/main.e688d3ab.js.map"
+    "main.f3726041.js.map": "/Audiobook_Platform-Research_Website/static/js/main.f3726041.js.map"
   },
   "entrypoints": [
     "static/css/main.fbfb4501.css",
-    "static/js/main.e688d3ab.js"
+    "static/js/main.f3726041.js"
   ]
 }
