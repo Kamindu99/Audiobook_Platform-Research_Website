@@ -8,9 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
+      <HomePage />
       <Footer />
     </BrowserRouter>
   );
