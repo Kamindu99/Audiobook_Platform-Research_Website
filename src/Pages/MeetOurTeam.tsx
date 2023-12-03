@@ -20,7 +20,7 @@ function MeetOurTeam() {
         {
             name: 'Senadeera S.A.V.J.',
             position: 'Group Leader',
-            image: 'https://media.licdn.com/dms/image/C4D03AQHTlOHM8NKOaw/profile-displayphoto-shrink_400_400/0/1614565198876?e=1699488000&v=beta&t=_ow3QZsJOl6Y8jgXsh2pMQ4jR0hI-XbsWUeHyHNolsc',
+            image: 'https://media.licdn.com/dms/image/C4D03AQHTlOHM8NKOaw/profile-displayphoto-shrink_800_800/0/1614565203783?e=2147483647&v=beta&t=gIx0Wm1wtz__kINjI3Nu_kW8t__VP74qBmH4pdEIGAE',
             department: 'Computer Science & Software Engineering'
         },
         {
@@ -32,7 +32,7 @@ function MeetOurTeam() {
         {
             name: 'Perera G.U.L.K.',
             position: 'Group Member',
-            image: 'https://media.licdn.com/dms/image/D5603AQFZaeGB6WnZ5w/profile-displayphoto-shrink_400_400/0/1691774590062?e=1699488000&v=beta&t=FNb0KvJp4qXemhSbCLCtKvxrDYC7ndrK6O3WGg9cUoE',
+            image: 'https://media.licdn.com/dms/image/D5603AQFZaeGB6WnZ5w/profile-displayphoto-shrink_800_800/0/1691774591286?e=2147483647&v=beta&t=UDWkrMASU-oHxFBBODpx8LnG7AQqzJZ6vMqgbG3pVeg',
             department: 'Computer Science & Software Engineering'
         },
         {
